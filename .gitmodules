@@ -1,0 +1,4 @@
+[submodule "Assets/Extensions/IA-Training-Template"]
+	path = Assets/Extensions/IA-Training-Template
+	url = git@github.com:Innoactive/IA-Training-Template.git
+	branch = develop

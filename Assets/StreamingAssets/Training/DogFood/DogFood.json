@@ -1,0 +1,47 @@
+{
+  "$id": "1",
+  "$type": "Innoactive.Hub.Training.Course, Assembly-CSharp",
+  "CurrentStep": null,
+  "Data": {
+    "$id": "2",
+    "$type": "Innoactive.Hub.Training.Course+EntityData, Assembly-CSharp",
+    "Chapters": {
+      "$id": "3",
+      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.IChapter, Assembly-CSharp]], mscorlib",
+      "$values": [
+        {
+          "$id": "4",
+          "$type": "Innoactive.Hub.Training.Chapter, Assembly-CSharp",
+          "ChapterMetadata": {
+            "$id": "5",
+            "$type": "Innoactive.Hub.Training.ChapterMetadata, Assembly-CSharp",
+            "LastSelectedStep": null,
+            "EntryNodePosition": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          "Data": {
+            "$id": "6",
+            "$type": "Innoactive.Hub.Training.Chapter+EntityData, Assembly-CSharp",
+            "Name": "Chapter 1",
+            "FirstStep": null,
+            "Steps": {
+              "$id": "7",
+              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.IStep, Assembly-CSharp]], mscorlib",
+              "$values": []
+            }
+          }
+        }
+      ]
+    },
+    "FirstChapter": {
+      "$ref": "4"
+    },
+    "Current": null,
+    "Name": "DogFood",
+    "Mode": null,
+    "Metadata": null
+  },
+  "$serializerVersion": 0
+}
