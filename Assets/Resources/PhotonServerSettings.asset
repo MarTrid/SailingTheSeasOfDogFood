@@ -15,7 +15,7 @@ MonoBehaviour:
   AppID: 
   VoiceAppID: 
   ChatAppID: 
-  HostType: 0
+  HostType: 3
   PreferredRegion: 0
   EnabledRegions: -1
   Protocol: 0
@@ -101,4 +101,19 @@ MonoBehaviour:
   - UpdateClientsTimeZoneChanged
   - RPCResetSpawnPile
   - RPCSetSpawnableAmount
+  - AttachGroupAttachChild
+  - AttachGroupDetachChild
+  - HandleHandover
+  - RPCSetupSnapDropZoneObject
+  - SelectTexture
+  - SetAnimationActiveOnRemote
+  - SetAnimationSpeedOnRemote
+  - SetCurrentRotationAmount
+  - SetInitialStateOnClients
+  - SetInvertedRemote
+  - SetStateOnClients
+  - SharePhotonViewIDs
+  - SpawnSnapZone
+  - SynchronizeColorChange
+  - UpdateClientsLineSplit
   DisableAutoOpenWizard: 1
