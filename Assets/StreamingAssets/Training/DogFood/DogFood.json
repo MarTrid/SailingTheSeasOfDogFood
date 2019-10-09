@@ -15,21 +15,413 @@
           "ChapterMetadata": {
             "$id": "5",
             "$type": "Innoactive.Hub.Training.ChapterMetadata, Assembly-CSharp",
-            "LastSelectedStep": null,
+            "LastSelectedStep": {
+              "$id": "6",
+              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+              "StepMetadata": {
+                "$id": "7",
+                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                "Position": {
+                  "x": 621.0,
+                  "y": -11.0
+                }
+              },
+              "Data": {
+                "$id": "8",
+                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                "Name": "Done",
+                "Description": null,
+                "Behaviors": {
+                  "$id": "9",
+                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "10",
+                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                    "Behaviors": {
+                      "$id": "11",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                      "$values": [
+                        {
+                          "$id": "12",
+                          "$type": "Innoactive.Hub.Training.Behaviors.DisableGameObjectBehavior, Assembly-CSharp",
+                          "Data": {
+                            "$id": "13",
+                            "$type": "Innoactive.Hub.Training.Behaviors.DisableGameObjectBehavior+EntityData, Assembly-CSharp",
+                            "Target": {
+                              "$id": "14",
+                              "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                              "UniqueName": "RubberDuck"
+                            },
+                            "Metadata": null,
+                            "Name": "Disable Object"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Transitions": {
+                  "$id": "15",
+                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "16",
+                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                    "Transitions": {
+                      "$id": "17",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                      "$values": []
+                    }
+                  }
+                },
+                "Current": null,
+                "Mode": null,
+                "Metadata": null
+              }
+            },
             "EntryNodePosition": {
               "x": 0.0,
               "y": 0.0
             }
           },
           "Data": {
-            "$id": "6",
+            "$id": "18",
             "$type": "Innoactive.Hub.Training.Chapter+EntityData, Assembly-CSharp",
             "Name": "Chapter 1",
-            "FirstStep": null,
+            "FirstStep": {
+              "$id": "19",
+              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+              "StepMetadata": {
+                "$id": "20",
+                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                "Position": {
+                  "x": 187.0,
+                  "y": 2.0
+                }
+              },
+              "Data": {
+                "$id": "21",
+                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                "Name": "Grab Sword",
+                "Description": "Grab the Stuff",
+                "Behaviors": {
+                  "$id": "22",
+                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "23",
+                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                    "Behaviors": {
+                      "$id": "24",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                      "$values": [
+                        {
+                          "$id": "25",
+                          "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior, Assembly-CSharp",
+                          "Data": {
+                            "$id": "26",
+                            "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior+EntityData, Assembly-CSharp",
+                            "IsBlocking": true,
+                            "Behavior": {
+                              "$id": "27",
+                              "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior, Assembly-CSharp",
+                              "Data": {
+                                "$id": "28",
+                                "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior+EntityData, Assembly-CSharp",
+                                "AudioData": {
+                                  "$id": "29",
+                                  "$type": "Innoactive.Hub.Training.Audio.TextToSpeechAudio, Assembly-CSharp",
+                                  "Text": {
+                                    "key": "aaa",
+                                    "defaultText": "Grab sword",
+                                    "formatParams": []
+                                  }
+                                },
+                                "ExecutionStages": 1,
+                                "Metadata": null,
+                                "Name": "Play Audio"
+                              }
+                            },
+                            "Name": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Transitions": {
+                  "$id": "30",
+                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "31",
+                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                    "Transitions": {
+                      "$id": "32",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                      "$values": [
+                        {
+                          "$id": "33",
+                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                          "Data": {
+                            "$id": "34",
+                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                            "Conditions": {
+                              "$id": "35",
+                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                              "$values": [
+                                {
+                                  "$id": "36",
+                                  "$type": "Innoactive.Hub.Training.Conditions.GrabbedCondition, Assembly-CSharp",
+                                  "Data": {
+                                    "$id": "37",
+                                    "$type": "Innoactive.Hub.Training.Conditions.GrabbedCondition+EntityData, Assembly-CSharp",
+                                    "GrabbableProperty": {
+                                      "$id": "38",
+                                      "$type": "Innoactive.Hub.Training.SceneObjects.ScenePropertyReference`1[[Innoactive.Hub.Training.SceneObjects.Properties.GrabbableProperty, Assembly-CSharp]], Assembly-CSharp",
+                                      "UniqueName": "VikingSword"
+                                    },
+                                    "IsCompleted": false,
+                                    "Name": "Grab Object",
+                                    "Metadata": null
+                                  }
+                                }
+                              ]
+                            },
+                            "TargetStep": {
+                              "$id": "39",
+                              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+                              "StepMetadata": {
+                                "$id": "40",
+                                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                                "Position": {
+                                  "x": 405.0,
+                                  "y": 3.0
+                                }
+                              },
+                              "Data": {
+                                "$id": "41",
+                                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                                "Name": "Hit Duck",
+                                "Description": "",
+                                "Behaviors": {
+                                  "$id": "42",
+                                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                                  "Data": {
+                                    "$id": "43",
+                                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                                    "Behaviors": {
+                                      "$id": "44",
+                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                                      "$values": []
+                                    }
+                                  }
+                                },
+                                "Transitions": {
+                                  "$id": "45",
+                                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                                  "Data": {
+                                    "$id": "46",
+                                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                                    "Transitions": {
+                                      "$id": "47",
+                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "48",
+                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                          "Data": {
+                                            "$id": "49",
+                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                            "Conditions": {
+                                              "$id": "50",
+                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                              "$values": [
+                                                {
+                                                  "$id": "51",
+                                                  "$type": "Innoactive.Hub.Training.Conditions.ObjectInRangeCondition, Assembly-CSharp",
+                                                  "Data": {
+                                                    "$id": "52",
+                                                    "$type": "Innoactive.Hub.Training.Conditions.ObjectInRangeCondition+EntityData, Assembly-CSharp",
+                                                    "DistanceDetector": {
+                                                      "$id": "53",
+                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                      "UniqueName": "RubberDuck"
+                                                    },
+                                                    "Target": {
+                                                      "$id": "54",
+                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                      "UniqueName": "VikingSword"
+                                                    },
+                                                    "Range": 1.0,
+                                                    "Name": "Object Nearby",
+                                                    "RequiredTimeInside": 0.0,
+                                                    "IsCompleted": false,
+                                                    "Metadata": null
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            "TargetStep": {
+                                              "$ref": "6"
+                                            },
+                                            "Mode": null,
+                                            "IsCompleted": false,
+                                            "Metadata": {
+                                              "$id": "55",
+                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                              "values": {
+                                                "$id": "56",
+                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                "Conditions": {
+                                                  "$id": "57",
+                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                    "$id": "58",
+                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                    "ChildAttributes": {
+                                                      "$id": "59",
+                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                      "$values": [
+                                                        {
+                                                          "$id": "60",
+                                                          "$type": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp",
+                                                          "Name": "Innoactive.Hub.Training.Attributes.FoldableAttribute",
+                                                          "TypeId": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                        },
+                                                        {
+                                                          "$id": "61",
+                                                          "$type": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp",
+                                                          "Name": "Innoactive.Hub.Training.Attributes.DeletableAttribute",
+                                                          "TypeId": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                        },
+                                                        {
+                                                          "$id": "62",
+                                                          "$type": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp",
+                                                          "Name": "Innoactive.Hub.Training.Attributes.SeparatedAttribute",
+                                                          "TypeId": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                        }
+                                                      ]
+                                                    },
+                                                    "ChildMetadata": {
+                                                      "$id": "63",
+                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                      "$values": [
+                                                        {
+                                                          "$id": "64",
+                                                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                          "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                          "Innoactive.Hub.Training.Attributes.DeletableAttribute": null,
+                                                          "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                    "$id": "65",
+                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                "Current": null,
+                                "Mode": null,
+                                "Metadata": null
+                              }
+                            },
+                            "Mode": null,
+                            "IsCompleted": false,
+                            "Metadata": {
+                              "$id": "66",
+                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                              "values": {
+                                "$id": "67",
+                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                "Conditions": {
+                                  "$id": "68",
+                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                    "$id": "69",
+                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                    "ChildAttributes": {
+                                      "$id": "70",
+                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "71",
+                                          "$type": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.FoldableAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        },
+                                        {
+                                          "$id": "72",
+                                          "$type": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.DeletableAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        },
+                                        {
+                                          "$id": "73",
+                                          "$type": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.SeparatedAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        }
+                                      ]
+                                    },
+                                    "ChildMetadata": {
+                                      "$id": "74",
+                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "75",
+                                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                          "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                          "Innoactive.Hub.Training.Attributes.DeletableAttribute": null,
+                                          "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                    "$id": "76",
+                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Current": null,
+                "Mode": null,
+                "Metadata": null
+              }
+            },
             "Steps": {
-              "$id": "7",
+              "$id": "77",
               "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.IStep, Assembly-CSharp]], mscorlib",
-              "$values": []
+              "$values": [
+                {
+                  "$ref": "19"
+                },
+                {
+                  "$ref": "39"
+                },
+                {
+                  "$ref": "6"
+                }
+              ]
             }
           }
         }
