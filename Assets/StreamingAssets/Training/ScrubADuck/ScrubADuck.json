@@ -1,0 +1,1313 @@
+{
+  "$id": "1",
+  "$type": "Innoactive.Hub.Training.Course, Assembly-CSharp",
+  "CurrentStep": null,
+  "Data": {
+    "$id": "2",
+    "$type": "Innoactive.Hub.Training.Course+EntityData, Assembly-CSharp",
+    "Chapters": {
+      "$id": "3",
+      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.IChapter, Assembly-CSharp]], mscorlib",
+      "$values": [
+        {
+          "$id": "4",
+          "$type": "Innoactive.Hub.Training.Chapter, Assembly-CSharp",
+          "ChapterMetadata": {
+            "$id": "5",
+            "$type": "Innoactive.Hub.Training.ChapterMetadata, Assembly-CSharp",
+            "LastSelectedStep": {
+              "$id": "6",
+              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+              "StepMetadata": {
+                "$id": "7",
+                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                "Position": {
+                  "x": 188.0,
+                  "y": 2.0
+                }
+              },
+              "Data": {
+                "$id": "8",
+                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                "Name": "Grab Sword",
+                "Description": "Grab the Stuff",
+                "Behaviors": {
+                  "$id": "9",
+                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "10",
+                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                    "Behaviors": {
+                      "$id": "11",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                      "$values": [
+                        {
+                          "$id": "12",
+                          "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior, Assembly-CSharp",
+                          "Data": {
+                            "$id": "13",
+                            "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior+EntityData, Assembly-CSharp",
+                            "IsBlocking": true,
+                            "Behavior": {
+                              "$id": "14",
+                              "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior, Assembly-CSharp",
+                              "Data": {
+                                "$id": "15",
+                                "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior+EntityData, Assembly-CSharp",
+                                "AudioData": {
+                                  "$id": "16",
+                                  "$type": "Innoactive.Hub.Training.Audio.TextToSpeechAudio, Assembly-CSharp",
+                                  "Text": {
+                                    "key": "aaa",
+                                    "defaultText": "First of all, you need a pwoper tool in oudew to squab say wubbaw duck. Cwap tsay wubbaw duck squabbaw now.",
+                                    "formatParams": []
+                                  }
+                                },
+                                "ExecutionStages": 1,
+                                "Metadata": null,
+                                "Name": "Play Audio"
+                              }
+                            },
+                            "Name": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Transitions": {
+                  "$id": "17",
+                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "18",
+                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                    "Transitions": {
+                      "$id": "19",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                      "$values": [
+                        {
+                          "$id": "20",
+                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                          "Data": {
+                            "$id": "21",
+                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                            "Conditions": {
+                              "$id": "22",
+                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                              "$values": [
+                                {
+                                  "$id": "23",
+                                  "$type": "Innoactive.Hub.Training.Conditions.GrabbedCondition, Assembly-CSharp",
+                                  "Data": {
+                                    "$id": "24",
+                                    "$type": "Innoactive.Hub.Training.Conditions.GrabbedCondition+EntityData, Assembly-CSharp",
+                                    "GrabbableProperty": {
+                                      "$id": "25",
+                                      "$type": "Innoactive.Hub.Training.SceneObjects.ScenePropertyReference`1[[Innoactive.Hub.Training.SceneObjects.Properties.GrabbableProperty, Assembly-CSharp]], Assembly-CSharp",
+                                      "UniqueName": "ScrubberHandle"
+                                    },
+                                    "IsCompleted": false,
+                                    "Name": "Grab Object",
+                                    "Metadata": null
+                                  }
+                                }
+                              ]
+                            },
+                            "TargetStep": {
+                              "$id": "26",
+                              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+                              "StepMetadata": {
+                                "$id": "27",
+                                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                                "Position": {
+                                  "x": 202.0,
+                                  "y": 163.0
+                                }
+                              },
+                              "Data": {
+                                "$id": "28",
+                                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                                "Name": "Clean duck",
+                                "Description": null,
+                                "Behaviors": {
+                                  "$id": "29",
+                                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                                  "Data": {
+                                    "$id": "30",
+                                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                                    "Behaviors": {
+                                      "$id": "31",
+                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "32",
+                                          "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior, Assembly-CSharp",
+                                          "Data": {
+                                            "$id": "33",
+                                            "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior+EntityData, Assembly-CSharp",
+                                            "IsBlocking": true,
+                                            "Behavior": {
+                                              "$id": "34",
+                                              "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior, Assembly-CSharp",
+                                              "Data": {
+                                                "$id": "35",
+                                                "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior+EntityData, Assembly-CSharp",
+                                                "AudioData": {
+                                                  "$id": "36",
+                                                  "$type": "Innoactive.Hub.Training.Audio.TextToSpeechAudio, Assembly-CSharp",
+                                                  "Text": {
+                                                    "key": "",
+                                                    "defaultText": "In fwont of you tseir is a dirty dirty wubbaw duck. Hit it whiz say wubbaw duck squabbaw to make it squeaky clean.",
+                                                    "formatParams": []
+                                                  }
+                                                },
+                                                "ExecutionStages": 1,
+                                                "Metadata": null,
+                                                "Name": "Play Audio"
+                                              }
+                                            },
+                                            "Name": ""
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                "Transitions": {
+                                  "$id": "37",
+                                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                                  "Data": {
+                                    "$id": "38",
+                                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                                    "Transitions": {
+                                      "$id": "39",
+                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "40",
+                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                          "Data": {
+                                            "$id": "41",
+                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                            "Conditions": {
+                                              "$id": "42",
+                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                              "$values": []
+                                            },
+                                            "TargetStep": {
+                                              "$id": "43",
+                                              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+                                              "StepMetadata": {
+                                                "$id": "44",
+                                                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                                                "Position": {
+                                                  "x": 400.0,
+                                                  "y": 232.0
+                                                }
+                                              },
+                                              "Data": {
+                                                "$id": "45",
+                                                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                                                "Name": "Branch",
+                                                "Description": null,
+                                                "Behaviors": {
+                                                  "$id": "46",
+                                                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                                                  "Data": {
+                                                    "$id": "47",
+                                                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                                                    "Behaviors": {
+                                                      "$id": "48",
+                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                                                      "$values": []
+                                                    }
+                                                  }
+                                                },
+                                                "Transitions": {
+                                                  "$id": "49",
+                                                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                                                  "Data": {
+                                                    "$id": "50",
+                                                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                                                    "Transitions": {
+                                                      "$id": "51",
+                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                                                      "$values": [
+                                                        {
+                                                          "$id": "52",
+                                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                                          "Data": {
+                                                            "$id": "53",
+                                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                                            "Conditions": {
+                                                              "$id": "54",
+                                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                                              "$values": [
+                                                                {
+                                                                  "$id": "55",
+                                                                  "$type": "Innoactive.Hub.Training.Conditions.ObjectInRangeCondition, Assembly-CSharp",
+                                                                  "Data": {
+                                                                    "$id": "56",
+                                                                    "$type": "Innoactive.Hub.Training.Conditions.ObjectInRangeCondition+EntityData, Assembly-CSharp",
+                                                                    "DistanceDetector": {
+                                                                      "$id": "57",
+                                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                      "UniqueName": "Scrubber"
+                                                                    },
+                                                                    "Target": {
+                                                                      "$id": "58",
+                                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                      "UniqueName": "Dirt1"
+                                                                    },
+                                                                    "Range": 0.2,
+                                                                    "Name": "Object Nearby",
+                                                                    "RequiredTimeInside": 1.0,
+                                                                    "IsCompleted": false,
+                                                                    "Metadata": null
+                                                                  }
+                                                                }
+                                                              ]
+                                                            },
+                                                            "TargetStep": {
+                                                              "$id": "59",
+                                                              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+                                                              "StepMetadata": {
+                                                                "$id": "60",
+                                                                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                                                                "Position": {
+                                                                  "x": 712.0,
+                                                                  "y": 171.0
+                                                                }
+                                                              },
+                                                              "Data": {
+                                                                "$id": "61",
+                                                                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                                                                "Name": "Remove 1",
+                                                                "Description": null,
+                                                                "Behaviors": {
+                                                                  "$id": "62",
+                                                                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                                                                  "Data": {
+                                                                    "$id": "63",
+                                                                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                                                                    "Behaviors": {
+                                                                      "$id": "64",
+                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$id": "65",
+                                                                          "$type": "Innoactive.Hub.Training.Behaviors.DisableGameObjectBehavior, Assembly-CSharp",
+                                                                          "Data": {
+                                                                            "$id": "66",
+                                                                            "$type": "Innoactive.Hub.Training.Behaviors.DisableGameObjectBehavior+EntityData, Assembly-CSharp",
+                                                                            "Target": {
+                                                                              "$id": "67",
+                                                                              "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                              "UniqueName": "Dirt1"
+                                                                            },
+                                                                            "Metadata": null,
+                                                                            "Name": "Disable Object"
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "Transitions": {
+                                                                  "$id": "68",
+                                                                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                                                                  "Data": {
+                                                                    "$id": "69",
+                                                                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                                                                    "Transitions": {
+                                                                      "$id": "70",
+                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$id": "71",
+                                                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                                                          "Data": {
+                                                                            "$id": "72",
+                                                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                                                            "Conditions": {
+                                                                              "$id": "73",
+                                                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                                                              "$values": []
+                                                                            },
+                                                                            "TargetStep": {
+                                                                              "$id": "74",
+                                                                              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+                                                                              "StepMetadata": {
+                                                                                "$id": "75",
+                                                                                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                                                                                "Position": {
+                                                                                  "x": 892.0,
+                                                                                  "y": 444.0
+                                                                                }
+                                                                              },
+                                                                              "Data": {
+                                                                                "$id": "76",
+                                                                                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                                                                                "Name": "Check",
+                                                                                "Description": null,
+                                                                                "Behaviors": {
+                                                                                  "$id": "77",
+                                                                                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                                                                                  "Data": {
+                                                                                    "$id": "78",
+                                                                                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                                                                                    "Behaviors": {
+                                                                                      "$id": "79",
+                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                                                                                      "$values": []
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "Transitions": {
+                                                                                  "$id": "80",
+                                                                                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                                                                                  "Data": {
+                                                                                    "$id": "81",
+                                                                                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                                                                                    "Transitions": {
+                                                                                      "$id": "82",
+                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                                                                                      "$values": [
+                                                                                        {
+                                                                                          "$id": "83",
+                                                                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                                                                          "Data": {
+                                                                                            "$id": "84",
+                                                                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                                                                            "Conditions": {
+                                                                                              "$id": "85",
+                                                                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                                                                              "$values": [
+                                                                                                {
+                                                                                                  "$id": "86",
+                                                                                                  "$type": "EnabledCondition, Assembly-CSharp",
+                                                                                                  "Data": {
+                                                                                                    "$id": "87",
+                                                                                                    "$type": "EnabledCondition+EntityData, Assembly-CSharp",
+                                                                                                    "Target": {
+                                                                                                      "$id": "88",
+                                                                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                                                      "UniqueName": "Dirt1"
+                                                                                                    },
+                                                                                                    "Inverted": true,
+                                                                                                    "Metadata": null,
+                                                                                                    "Name": "Object Enabled"
+                                                                                                  }
+                                                                                                },
+                                                                                                {
+                                                                                                  "$id": "89",
+                                                                                                  "$type": "EnabledCondition, Assembly-CSharp",
+                                                                                                  "Data": {
+                                                                                                    "$id": "90",
+                                                                                                    "$type": "EnabledCondition+EntityData, Assembly-CSharp",
+                                                                                                    "Target": {
+                                                                                                      "$id": "91",
+                                                                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                                                      "UniqueName": "Dirt2"
+                                                                                                    },
+                                                                                                    "Inverted": true,
+                                                                                                    "Metadata": null,
+                                                                                                    "Name": "Object Enabled"
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            "TargetStep": {
+                                                                                              "$id": "92",
+                                                                                              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+                                                                                              "StepMetadata": {
+                                                                                                "$id": "93",
+                                                                                                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                                                                                                "Position": {
+                                                                                                  "x": 990.0,
+                                                                                                  "y": 145.0
+                                                                                                }
+                                                                                              },
+                                                                                              "Data": {
+                                                                                                "$id": "94",
+                                                                                                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                                                                                                "Name": "Done",
+                                                                                                "Description": null,
+                                                                                                "Behaviors": {
+                                                                                                  "$id": "95",
+                                                                                                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                                                                                                  "Data": {
+                                                                                                    "$id": "96",
+                                                                                                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                                                                                                    "Behaviors": {
+                                                                                                      "$id": "97",
+                                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                                                                                                      "$values": [
+                                                                                                        {
+                                                                                                          "$id": "98",
+                                                                                                          "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior, Assembly-CSharp",
+                                                                                                          "Data": {
+                                                                                                            "$id": "99",
+                                                                                                            "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior+EntityData, Assembly-CSharp",
+                                                                                                            "IsBlocking": false,
+                                                                                                            "Behavior": {
+                                                                                                              "$id": "100",
+                                                                                                              "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior, Assembly-CSharp",
+                                                                                                              "Data": {
+                                                                                                                "$id": "101",
+                                                                                                                "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior+EntityData, Assembly-CSharp",
+                                                                                                                "AudioData": {
+                                                                                                                  "$id": "102",
+                                                                                                                  "$type": "Innoactive.Hub.Training.Audio.TextToSpeechAudio, Assembly-CSharp",
+                                                                                                                  "Text": {
+                                                                                                                    "key": "",
+                                                                                                                    "defaultText": "Fuck a duck! Youw tsay best wubbay duck squabber I've ever seen!",
+                                                                                                                    "formatParams": []
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "ExecutionStages": 1,
+                                                                                                                "Metadata": null,
+                                                                                                                "Name": "Play Audio"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "Name": ""
+                                                                                                          }
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  }
+                                                                                                },
+                                                                                                "Transitions": {
+                                                                                                  "$id": "103",
+                                                                                                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                                                                                                  "Data": {
+                                                                                                    "$id": "104",
+                                                                                                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                                                                                                    "Transitions": {
+                                                                                                      "$id": "105",
+                                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                                                                                                      "$values": []
+                                                                                                    }
+                                                                                                  }
+                                                                                                },
+                                                                                                "Current": null,
+                                                                                                "Mode": null,
+                                                                                                "Metadata": null
+                                                                                              }
+                                                                                            },
+                                                                                            "Mode": null,
+                                                                                            "IsCompleted": false,
+                                                                                            "Metadata": {
+                                                                                              "$id": "106",
+                                                                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                                                                              "values": {
+                                                                                                "$id": "107",
+                                                                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                                "Conditions": {
+                                                                                                  "$id": "108",
+                                                                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                                                                    "$id": "109",
+                                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                                                                    "ChildAttributes": {
+                                                                                                      "$id": "110",
+                                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                                                                      "$values": [
+                                                                                                        {
+                                                                                                          "$id": "111",
+                                                                                                          "$type": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp",
+                                                                                                          "Name": "Innoactive.Hub.Training.Attributes.FoldableAttribute",
+                                                                                                          "TypeId": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "$id": "112",
+                                                                                                          "$type": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp",
+                                                                                                          "Name": "Innoactive.Hub.Training.Attributes.DeletableAttribute",
+                                                                                                          "TypeId": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "$id": "113",
+                                                                                                          "$type": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp",
+                                                                                                          "Name": "Innoactive.Hub.Training.Attributes.SeparatedAttribute",
+                                                                                                          "TypeId": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    "ChildMetadata": {
+                                                                                                      "$id": "114",
+                                                                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                                      "$values": [
+                                                                                                        {
+                                                                                                          "$id": "115",
+                                                                                                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                                                          "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                                                          "Innoactive.Hub.Training.Attributes.DeletableAttribute": null,
+                                                                                                          "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "$id": "116",
+                                                                                                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                                                          "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                                                          "Innoactive.Hub.Training.Attributes.DeletableAttribute": null,
+                                                                                                          "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                                                                    "$id": "117",
+                                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        {
+                                                                                          "$id": "118",
+                                                                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                                                                          "Data": {
+                                                                                            "$id": "119",
+                                                                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                                                                            "Conditions": {
+                                                                                              "$id": "120",
+                                                                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                                                                              "$values": []
+                                                                                            },
+                                                                                            "TargetStep": {
+                                                                                              "$ref": "43"
+                                                                                            },
+                                                                                            "Mode": null,
+                                                                                            "IsCompleted": false,
+                                                                                            "Metadata": {
+                                                                                              "$id": "121",
+                                                                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                                                                              "values": {
+                                                                                                "$id": "122",
+                                                                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                                "Conditions": {
+                                                                                                  "$id": "123",
+                                                                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                                                                    "$id": "124",
+                                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                                                                    "ChildAttributes": {
+                                                                                                      "$id": "125",
+                                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                                                                      "$values": [
+                                                                                                        {
+                                                                                                          "$id": "126",
+                                                                                                          "$type": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp",
+                                                                                                          "Name": "Innoactive.Hub.Training.Attributes.FoldableAttribute",
+                                                                                                          "TypeId": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "$id": "127",
+                                                                                                          "$type": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp",
+                                                                                                          "Name": "Innoactive.Hub.Training.Attributes.DeletableAttribute",
+                                                                                                          "TypeId": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "$id": "128",
+                                                                                                          "$type": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp",
+                                                                                                          "Name": "Innoactive.Hub.Training.Attributes.SeparatedAttribute",
+                                                                                                          "TypeId": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    "ChildMetadata": {
+                                                                                                      "$id": "129",
+                                                                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                                      "$values": []
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                                                                    "$id": "130",
+                                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "Current": null,
+                                                                                "Mode": null,
+                                                                                "Metadata": null
+                                                                              }
+                                                                            },
+                                                                            "Mode": null,
+                                                                            "IsCompleted": false,
+                                                                            "Metadata": {
+                                                                              "$id": "131",
+                                                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                                                              "values": {
+                                                                                "$id": "132",
+                                                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                "Conditions": {
+                                                                                  "$id": "133",
+                                                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                                                    "$id": "134",
+                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                                                    "ChildAttributes": {
+                                                                                      "$id": "135",
+                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                                                      "$values": [
+                                                                                        {
+                                                                                          "$ref": "111"
+                                                                                        },
+                                                                                        {
+                                                                                          "$ref": "112"
+                                                                                        },
+                                                                                        {
+                                                                                          "$ref": "113"
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    "ChildMetadata": {
+                                                                                      "$id": "136",
+                                                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                      "$values": []
+                                                                                    }
+                                                                                  },
+                                                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                                                    "$id": "137",
+                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "Current": null,
+                                                                "Mode": null,
+                                                                "Metadata": null
+                                                              }
+                                                            },
+                                                            "Mode": null,
+                                                            "IsCompleted": false,
+                                                            "Metadata": {
+                                                              "$id": "138",
+                                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                                              "values": {
+                                                                "$id": "139",
+                                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                "Conditions": {
+                                                                  "$id": "140",
+                                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                                    "$id": "141",
+                                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                                    "ChildAttributes": {
+                                                                      "$id": "142",
+                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$ref": "111"
+                                                                        },
+                                                                        {
+                                                                          "$ref": "112"
+                                                                        },
+                                                                        {
+                                                                          "$ref": "113"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "ChildMetadata": {
+                                                                      "$id": "143",
+                                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$id": "144",
+                                                                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                          "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                          "Innoactive.Hub.Training.Attributes.DeletableAttribute": null,
+                                                                          "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  },
+                                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                                    "$id": "145",
+                                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "$id": "146",
+                                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                                          "Data": {
+                                                            "$id": "147",
+                                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                                            "Conditions": {
+                                                              "$id": "148",
+                                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                                              "$values": [
+                                                                {
+                                                                  "$id": "149",
+                                                                  "$type": "Innoactive.Hub.Training.Conditions.ObjectInRangeCondition, Assembly-CSharp",
+                                                                  "Data": {
+                                                                    "$id": "150",
+                                                                    "$type": "Innoactive.Hub.Training.Conditions.ObjectInRangeCondition+EntityData, Assembly-CSharp",
+                                                                    "DistanceDetector": {
+                                                                      "$id": "151",
+                                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                      "UniqueName": "Scrubber"
+                                                                    },
+                                                                    "Target": {
+                                                                      "$id": "152",
+                                                                      "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                      "UniqueName": "Dirt2"
+                                                                    },
+                                                                    "Range": 0.2,
+                                                                    "Name": "Object Nearby",
+                                                                    "RequiredTimeInside": 1.0,
+                                                                    "IsCompleted": false,
+                                                                    "Metadata": null
+                                                                  }
+                                                                }
+                                                              ]
+                                                            },
+                                                            "TargetStep": {
+                                                              "$id": "153",
+                                                              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+                                                              "StepMetadata": {
+                                                                "$id": "154",
+                                                                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                                                                "Position": {
+                                                                  "x": 718.0,
+                                                                  "y": 295.0
+                                                                }
+                                                              },
+                                                              "Data": {
+                                                                "$id": "155",
+                                                                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                                                                "Name": "Remove 2",
+                                                                "Description": null,
+                                                                "Behaviors": {
+                                                                  "$id": "156",
+                                                                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                                                                  "Data": {
+                                                                    "$id": "157",
+                                                                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                                                                    "Behaviors": {
+                                                                      "$id": "158",
+                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$id": "159",
+                                                                          "$type": "Innoactive.Hub.Training.Behaviors.DisableGameObjectBehavior, Assembly-CSharp",
+                                                                          "Data": {
+                                                                            "$id": "160",
+                                                                            "$type": "Innoactive.Hub.Training.Behaviors.DisableGameObjectBehavior+EntityData, Assembly-CSharp",
+                                                                            "Target": {
+                                                                              "$id": "161",
+                                                                              "$type": "Innoactive.Hub.Training.SceneObjects.SceneObjectReference, Assembly-CSharp",
+                                                                              "UniqueName": "Dirt2"
+                                                                            },
+                                                                            "Metadata": null,
+                                                                            "Name": "Disable Object"
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "Transitions": {
+                                                                  "$id": "162",
+                                                                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                                                                  "Data": {
+                                                                    "$id": "163",
+                                                                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                                                                    "Transitions": {
+                                                                      "$id": "164",
+                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$id": "165",
+                                                                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                                                                          "Data": {
+                                                                            "$id": "166",
+                                                                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                                                                            "Conditions": {
+                                                                              "$id": "167",
+                                                                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                                                                              "$values": []
+                                                                            },
+                                                                            "TargetStep": {
+                                                                              "$ref": "74"
+                                                                            },
+                                                                            "Mode": null,
+                                                                            "IsCompleted": false,
+                                                                            "Metadata": {
+                                                                              "$id": "168",
+                                                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                                                              "values": {
+                                                                                "$id": "169",
+                                                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                "Conditions": {
+                                                                                  "$id": "170",
+                                                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                                                    "$id": "171",
+                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                                                    "ChildAttributes": {
+                                                                                      "$id": "172",
+                                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                                                      "$values": [
+                                                                                        {
+                                                                                          "$ref": "111"
+                                                                                        },
+                                                                                        {
+                                                                                          "$ref": "112"
+                                                                                        },
+                                                                                        {
+                                                                                          "$ref": "113"
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    "ChildMetadata": {
+                                                                                      "$id": "173",
+                                                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                                      "$values": []
+                                                                                    }
+                                                                                  },
+                                                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                                                    "$id": "174",
+                                                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "Current": null,
+                                                                "Mode": null,
+                                                                "Metadata": null
+                                                              }
+                                                            },
+                                                            "Mode": null,
+                                                            "IsCompleted": false,
+                                                            "Metadata": {
+                                                              "$id": "175",
+                                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                                              "values": {
+                                                                "$id": "176",
+                                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                "Conditions": {
+                                                                  "$id": "177",
+                                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                                    "$id": "178",
+                                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                                    "ChildAttributes": {
+                                                                      "$id": "179",
+                                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$ref": "111"
+                                                                        },
+                                                                        {
+                                                                          "$ref": "112"
+                                                                        },
+                                                                        {
+                                                                          "$ref": "113"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "ChildMetadata": {
+                                                                      "$id": "180",
+                                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                                      "$values": [
+                                                                        {
+                                                                          "$id": "181",
+                                                                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                                          "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                                          "Innoactive.Hub.Training.Attributes.DeletableAttribute": null,
+                                                                          "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  },
+                                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                                    "$id": "182",
+                                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                },
+                                                "Current": null,
+                                                "Mode": null,
+                                                "Metadata": null
+                                              }
+                                            },
+                                            "Mode": null,
+                                            "IsCompleted": false,
+                                            "Metadata": {
+                                              "$id": "183",
+                                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                                              "values": {
+                                                "$id": "184",
+                                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                "Conditions": {
+                                                  "$id": "185",
+                                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                                    "$id": "186",
+                                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                                    "ChildAttributes": {
+                                                      "$id": "187",
+                                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                                      "$values": [
+                                                        {
+                                                          "$ref": "111"
+                                                        },
+                                                        {
+                                                          "$ref": "112"
+                                                        },
+                                                        {
+                                                          "$ref": "113"
+                                                        }
+                                                      ]
+                                                    },
+                                                    "ChildMetadata": {
+                                                      "$id": "188",
+                                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                                      "$values": []
+                                                    }
+                                                  },
+                                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                                    "$id": "189",
+                                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                "Current": null,
+                                "Mode": null,
+                                "Metadata": null
+                              }
+                            },
+                            "Mode": null,
+                            "IsCompleted": false,
+                            "Metadata": {
+                              "$id": "190",
+                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                              "values": {
+                                "$id": "191",
+                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                "Conditions": {
+                                  "$id": "192",
+                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                    "$id": "193",
+                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                    "ChildAttributes": {
+                                      "$id": "194",
+                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "195",
+                                          "$type": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.FoldableAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        },
+                                        {
+                                          "$id": "196",
+                                          "$type": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.DeletableAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        },
+                                        {
+                                          "$id": "197",
+                                          "$type": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.SeparatedAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        }
+                                      ]
+                                    },
+                                    "ChildMetadata": {
+                                      "$id": "198",
+                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "199",
+                                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                          "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                          "Innoactive.Hub.Training.Attributes.DeletableAttribute": null,
+                                          "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                    "$id": "200",
+                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Current": null,
+                "Mode": null,
+                "Metadata": null
+              }
+            },
+            "EntryNodePosition": {
+              "x": -124.0,
+              "y": 2.0
+            }
+          },
+          "Data": {
+            "$id": "201",
+            "$type": "Innoactive.Hub.Training.Chapter+EntityData, Assembly-CSharp",
+            "Name": "Chapter 1",
+            "FirstStep": {
+              "$id": "202",
+              "$type": "Innoactive.Hub.Training.Step, Assembly-CSharp",
+              "StepMetadata": {
+                "$id": "203",
+                "$type": "Innoactive.Hub.Training.StepMetadata, Assembly-CSharp",
+                "Position": {
+                  "x": 3.0,
+                  "y": 6.0
+                }
+              },
+              "Data": {
+                "$id": "204",
+                "$type": "Innoactive.Hub.Training.Step+EntityData, Assembly-CSharp",
+                "Name": "Intro",
+                "Description": null,
+                "Behaviors": {
+                  "$id": "205",
+                  "$type": "Innoactive.Hub.Training.BehaviorCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "206",
+                    "$type": "Innoactive.Hub.Training.BehaviorCollection+EntityData, Assembly-CSharp",
+                    "Behaviors": {
+                      "$id": "207",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Behaviors.IBehavior, Assembly-CSharp]], mscorlib",
+                      "$values": [
+                        {
+                          "$id": "208",
+                          "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior, Assembly-CSharp",
+                          "Data": {
+                            "$id": "209",
+                            "$type": "Innoactive.Hub.Training.Behaviors.NonblockingWrapperBehavior+EntityData, Assembly-CSharp",
+                            "IsBlocking": true,
+                            "Behavior": {
+                              "$id": "210",
+                              "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior, Assembly-CSharp",
+                              "Data": {
+                                "$id": "211",
+                                "$type": "Innoactive.Hub.Training.Behaviors.PlayAudioBehavior+EntityData, Assembly-CSharp",
+                                "AudioData": {
+                                  "$id": "212",
+                                  "$type": "Innoactive.Hub.Training.Audio.TextToSpeechAudio, Assembly-CSharp",
+                                  "Text": {
+                                    "key": "",
+                                    "defaultText": "Moin moin, I am tsay ducktow, and today we'll learn tsay pwoper way to squab a wubber duck.",
+                                    "formatParams": []
+                                  }
+                                },
+                                "ExecutionStages": 1,
+                                "Metadata": null,
+                                "Name": "Play Audio"
+                              }
+                            },
+                            "Name": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Transitions": {
+                  "$id": "213",
+                  "$type": "Innoactive.Hub.Training.TransitionCollection, Assembly-CSharp",
+                  "Data": {
+                    "$id": "214",
+                    "$type": "Innoactive.Hub.Training.TransitionCollection+EntityData, Assembly-CSharp",
+                    "Transitions": {
+                      "$id": "215",
+                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.ITransition, Assembly-CSharp]], mscorlib",
+                      "$values": [
+                        {
+                          "$id": "216",
+                          "$type": "Innoactive.Hub.Training.Transition, Assembly-CSharp",
+                          "Data": {
+                            "$id": "217",
+                            "$type": "Innoactive.Hub.Training.Transition+EntityData, Assembly-CSharp",
+                            "Conditions": {
+                              "$id": "218",
+                              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp]], mscorlib",
+                              "$values": []
+                            },
+                            "TargetStep": {
+                              "$ref": "6"
+                            },
+                            "Mode": null,
+                            "IsCompleted": false,
+                            "Metadata": {
+                              "$id": "219",
+                              "$type": "Innoactive.Hub.Training.Metadata, Assembly-CSharp",
+                              "values": {
+                                "$id": "220",
+                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                "Conditions": {
+                                  "$id": "221",
+                                  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                                  "Innoactive.Hub.Training.Attributes.FoldableAttribute": true,
+                                  "Innoactive.Hub.Training.Attributes.SeparatedAttribute": null,
+                                  "Innoactive.Hub.Training.Attributes.ListOfAttribute": {
+                                    "$id": "222",
+                                    "$type": "Innoactive.Hub.Training.Attributes.ListOfAttribute+Metadata, Assembly-CSharp",
+                                    "ChildAttributes": {
+                                      "$id": "223",
+                                      "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.Attributes.MetadataAttribute, Assembly-CSharp]], mscorlib",
+                                      "$values": [
+                                        {
+                                          "$id": "224",
+                                          "$type": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.FoldableAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.FoldableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        },
+                                        {
+                                          "$id": "225",
+                                          "$type": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.DeletableAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.DeletableAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        },
+                                        {
+                                          "$id": "226",
+                                          "$type": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp",
+                                          "Name": "Innoactive.Hub.Training.Attributes.SeparatedAttribute",
+                                          "TypeId": "Innoactive.Hub.Training.Attributes.SeparatedAttribute, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                        }
+                                      ]
+                                    },
+                                    "ChildMetadata": {
+                                      "$id": "227",
+                                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                      "$values": []
+                                    }
+                                  },
+                                  "Innoactive.Hub.Training.Attributes.ExtendableListAttribute": {
+                                    "$id": "228",
+                                    "$type": "Innoactive.Hub.Training.Attributes.ExtendableListAttribute+SerializedTypeWrapper, Assembly-CSharp",
+                                    "Type": "Innoactive.Hub.Training.Conditions.ICondition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "Current": null,
+                "Mode": null,
+                "Metadata": null
+              }
+            },
+            "Steps": {
+              "$id": "229",
+              "$type": "System.Collections.Generic.List`1[[Innoactive.Hub.Training.IStep, Assembly-CSharp]], mscorlib",
+              "$values": [
+                {
+                  "$ref": "6"
+                },
+                {
+                  "$ref": "92"
+                },
+                {
+                  "$ref": "202"
+                },
+                {
+                  "$ref": "26"
+                },
+                {
+                  "$ref": "43"
+                },
+                {
+                  "$ref": "59"
+                },
+                {
+                  "$ref": "153"
+                },
+                {
+                  "$ref": "74"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "FirstChapter": {
+      "$ref": "4"
+    },
+    "Current": null,
+    "Name": "SquabADuck",
+    "Mode": null,
+    "Metadata": null
+  },
+  "$serializerVersion": 0
+}
